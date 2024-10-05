@@ -1,0 +1,196 @@
+/*The logo for all apges*/
+*{
+  scroll-behavior: smooth;
+}
+
+header{
+    position: fixed;
+    width:100%;
+    top:0; /*removes the white space between the header and the page border*/
+    left:0; /*same as the above but for the left*/
+    background-color:#E6F1EC;
+    font-size:25px;
+    padding:26px 75px;
+}
+
+body{
+    margin:0px;
+}
+
+#logo{
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 35px;
+    margin-left:75px;
+}
+
+.navbar{
+    float:inline-start;
+    text-align:center;
+    
+}
+
+.pages{
+    padding-top:15px;
+    margin-left:700px;
+}
+
+.pages a{
+    text-decoration: none;
+    margin-left:43px;
+}
+
+footer{
+    position:relative;
+    width:100%;
+    bottom:0;
+    left:0;
+    background-color:#E6F1EC;
+    font-size:25px;
+}
+
+
+*{
+    font-family: "Inconsolata", monospace;
+    color:#464B49;
+}
+body{
+
+    background-color: #F8FBFA;
+}
+main{
+    font-size:24px;
+    margin-top:101px;
+    padding:30px 50px;
+
+}
+
+h1{
+    font-size:50px;
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+h2{
+    font-size:35px;
+}
+
+/*title in ingredients*/
+.Title{
+    text-align: center;
+    font-size: 35;
+}
+
+.ingredients-pic{
+    float:left;
+}
+
+.fieldset-blurr{
+    filter: blur(8px);
+    -webkit-filter: blur(8px);
+    background-repeat: no-repeat;
+    
+    
+}
+
+.text-blur{
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+  color: white;
+  font-weight: bold;
+  border: 3px solid #f1f1f1;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  width: 80%;
+  padding: 20px;
+  text-align: center;
+}
+
+.signlog{ /*sign in and log in*/
+    height: 400px;
+    width: 40%;
+    background-color: #E6F1EC;
+    margin: auto;
+    padding: 100px 70px;
+    border-radius:80px;
+}
+
+.btn { /*submit button*/
+    background-color: rgb(111, 176, 169); /* Green */
+    border: none;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    border-radius: 80px;
+    font-weight: 700;
+  }
+
+  /*input box*/
+  .inputboxdiv{
+    background-color: rgb(111, 176, 169);
+    padding: 10px;
+    width: 50%;
+    border-radius: 20px;
+    margin: auto;
+  }
+
+  .inputbox{
+    border-style: hidden;
+    background-color: rgb(111, 176, 169);
+    width:60%;
+    height:25px;
+    font-size: 24px;
+    color:#E6F1EC;
+    font-weight: bold;
+    outline:none;
+  }
+
+  .ingredientsNav a{
+    text-decoration: none;
+    background-color: rgb(111, 176, 169); 
+    padding: 10px 15px ;
+    border-radius:  80px;
+    margin:0px 7px;
+    font-weight: 600;
+    border:#464B49 1px solid;
+  }
+
+  .socials img{
+    width:70px;
+  }
+
+  .tableback{
+    background-color:#E6F1EC;
+    padding: 50px;
+    border-radius: 50px;
+  }
+
+  .centerTable{
+    border-radius: 50px;
+    padding: 20px;
+  }
+
+  .inTable{
+    padding: 15px;
+    border-radius: 20px;
+    background-color: rgb(111, 176, 169);
+    font-size: 20px;
+    text-align: center;
+  }
+
+  .revBackround{
+    background-color: #E6F1EC;
+    padding: 50px;
+    border-radius: 50px;
+  }
+
+  .revFieldset{
+    border-radius: 50px;
+    padding: 30px;
+    /*border:none;*/
+  }
